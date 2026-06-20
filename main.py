@@ -3,7 +3,6 @@ import feedparser
 from google.genai import Client
 import os
 
-# 1. 설정
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 TELEGRAM_TOKEN = "YOUR_BOT_TOKEN"  
 TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"  
